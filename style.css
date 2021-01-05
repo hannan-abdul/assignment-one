@@ -1,0 +1,56 @@
+body{
+    font-family: 'Oswald', sans-serif;
+   
+}
+.first-section{}
+h1{
+    color: #000000bf;
+    font-size: 45px;
+}
+h2{}
+h3{}
+h4{}
+.btn{
+    text-decoration: none;
+    padding: 10px;
+    background-image: linear-gradient(lightsalmon, tomato);
+    color: #fff;
+    border-radius: 5px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.project-section{}
+.project-heading{
+    text-align: center;
+}
+.feature-part{
+    width: 25%;
+    float: left;
+    margin-left: 4%;
+    padding: 2%;
+}
+span{
+    color: tomato;
+}
+img{
+    max-width: 100%;
+}
+section{
+    height: 500px;
+    width: 1200px;
+}
+.inquiry-section{
+    
+   
+}
+.background-img{
+    background-image: url(images/Group_33094_1.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+
