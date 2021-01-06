@@ -2,20 +2,36 @@ body{
     font-family: 'Oswald', sans-serif;
    
 }
-.first-section{}
+.first-section{
+    margin-top: 60px;
+}
 h1{
     color: #000000bf;
     font-size: 45px;
+    margin: 0;
 }
 h2{}
-h3{}
-h4{}
+h3{
+    padding: 30px;
+    font-size: 30px;
+}
+h4{
+    font-size: 25px;
+    color: #000000b8;
+    margin: 0;
+}
+h5{
+    color: #000000b8;
+    margin: 0;
+}
 .btn{
     text-decoration: none;
-    padding: 10px;
+    padding: 5px 25px;
     background-image: linear-gradient(lightsalmon, tomato);
     color: #fff;
     border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
 }
 .half-width{
     width: 40%;
@@ -23,7 +39,39 @@ h4{}
     margin-left: 5%;
     padding-left: 2%;
 }
-.project-section{}
+.service-section{
+    text-align: center;
+    background-color: #7fffd445;
+    padding: 35px 0;
+}
+.service-section h2{
+    font-size: 30px;
+    margin: 10px;
+}
+.service-section p{
+    font-size: 20px;
+}
+.service-section .container{}
+.service-img{
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+    padding: 5px;
+}
+.service-img img{
+}
+.service-img h3{
+    padding: 0;
+    margin: 10px;
+}
+.service-img p{
+    padding: 0px 50px;
+}
+.project-section{
+    background-color: #80808017;
+    padding: 25px;
+    padding-bottom: 100px;
+}
 .project-heading{
     text-align: center;
 }
@@ -32,6 +80,9 @@ h4{}
     float: left;
     margin-left: 4%;
     padding: 2%;
+    box-shadow: 1px 5px 20px 0px grey;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 span{
     color: tomato;
@@ -41,16 +92,52 @@ img{
 }
 section{
     height: 500px;
-    width: 1200px;
+    padding-bottom: 7px;
 }
 .inquiry-section{
-    
-   
+    height: 250px;
+    margin-top: 100px;
+}
+.inquiry-half{
+    float: left;
+    margin: 68px;
+}
+.right{
+    margin-left: 20%;
+}
+.inquiry-half h2{
+    display: inline;
+    color: #fff;
+    font-size: 40px;
+}
+.btn-inquiry{
+    text-decoration: none;
+    padding: 15px 45px;
+    background-image: linear-gradient(lightsalmon, tomato);
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
 }
 .background-img{
-    background-image: url(images/Group_33094_1.png);
+    background-image: url(images/chat-bg.png);
     background-repeat: repeat;
     background-size: cover;
+    overflow: hidden;
+    width: 60%;
+    margin: auto;
+}
+footer{
+    text-align: center;
+}
+.footer-img-div{
+    margin-left: 42%;
+}
+.footer-img{
+    float: left;
+    margin: 8px;
+}
+.footer-img img{
+    width: 60px;
 }
 
 
